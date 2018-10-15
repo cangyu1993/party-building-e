@@ -1,0 +1,18 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  //background-color: #c50206;
+  align-items: center;
+  .headerLeft{
+    .logo{
+      background:url("./headerleft.png") no-repeat;
+      background-position:(0px,0px);
+    }
+  }
+  .toLogin{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+  }
+}

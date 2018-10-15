@@ -1,0 +1,28 @@
+.menu{
+  height: 46px;
+  width: 100%;
+  border-top: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  .item-link{
+    text-decoration: none;
+    .iconfont{
+      font-size: 20px;
+      color: #707070;
+    }
+    .title{
+      font-size: 10px;
+      color: #707070;
+    }
+  }
+  .active{
+     color: #c7000a;
+     border-top: 1px solid #c7000a;
+  }
+}
